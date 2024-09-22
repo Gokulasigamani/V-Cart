@@ -7,7 +7,7 @@ export default function User() {
   const navigate=useNavigate()
   useEffect(() => {
     const token = JSON.parse(sessionStorage.getItem("token"));
-    fetch("https://v-cart.onrender.com/api/history", {
+    fetch("https://v-cart-r7jl.onrender.com/api/history", {
       headers: {
         "Content-type": "application/json; charset=UTF-8",
         token: token,
