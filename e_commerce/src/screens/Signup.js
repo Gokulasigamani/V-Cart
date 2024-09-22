@@ -16,7 +16,7 @@ export default function Signup() {
 
     try {
       setLoading(true);
-      const response = await fetch("https://v-cart.onrender.com/api/getAll");
+      const response = await fetch("https://v-cart-r7jl.onrender.com/api/getAll");
       const arr = await response.json();
       setLoading(false);
       const nameExist = arr.some((customer) => customer.name === name);
@@ -55,7 +55,7 @@ export default function Signup() {
       phone: number,
     };
     setLoading(true);
-    fetch("https://v-cart.onrender.com/api/create", {
+    fetch("https://v-cart-r7jl.onrender.com/api/create", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {
