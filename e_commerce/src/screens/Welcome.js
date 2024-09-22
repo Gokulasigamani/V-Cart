@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Welcome() {
-  fetch("https://v-cart.onrender.com/api")
+  fetch("https://v-cart-r7jl.onrender.com/api")
   return (
     <div class="container mx-auto px-4 py-8">
       <h2 class="text-3xl font-bold text-center mb-8">Project Overview</h2>
