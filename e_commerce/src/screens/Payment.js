@@ -13,7 +13,7 @@ export default function Payment() {
       navigate("/login");
       sessionStorage.removeItem("token");
     } else {
-      fetch("https://v-cart.onrender.com/api/coi", {
+      fetch("https://v-cart-r7jl.onrender.com/api/coi", {
         method: "POST",
         body: JSON.stringify({
           price: product.price,
@@ -42,7 +42,7 @@ export default function Payment() {
       description: "Pay & Checkout this product",
       order_id: orderId,
       handler: (response) => {
-        fetch("https://v-cart.onrender.com/api/vo", {
+        fetch("https://v-cart-r7jl.onrender.com/api/vo", {
           method: "POST",
           body: JSON.stringify({
             product: product.title,
@@ -67,8 +67,8 @@ export default function Payment() {
           .catch((err) => console.error(err));
       },
       prefill: {
-        name: "Vasanth",
-        email: "vasanth98@gmail.com",
+        name: "gokul",
+        email: "gokul@gmail.com",
         contact: "9842359811",
       },
       theme: {
