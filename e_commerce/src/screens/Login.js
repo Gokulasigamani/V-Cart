@@ -22,7 +22,7 @@ export default function Login() {
     let data = { name, pass: password };
     try {
       setLoading(true);
-      const response = await fetch("https://v-cart-r7jl.onrender.com//api/login", {
+      const response = await fetch("https://v-cart-r7jl.onrender.com/api/login", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
