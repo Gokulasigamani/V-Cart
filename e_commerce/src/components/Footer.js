@@ -19,13 +19,10 @@ export default function Footer() {
             </Link>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
               <li>
-                <Link to="/about" class="hover:underline me-4 md:me-6">
-                  About
-                </Link>
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/vasanthakumar-kathiresan/"
+                  href="www.linkedin.com/in/gokulasigamani-n-7aa862221"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline me-4 md:me-6"
@@ -35,7 +32,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com/Vasanth-sharp"
+                  href="https://github.com/Gokulasigamani"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="hover:underline me-4 md:me-6"
@@ -54,7 +51,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               class="hover:underline"
             >
-              E-commerce
+              Gokulasigamani N
             </a>
           </span>
         </div>
